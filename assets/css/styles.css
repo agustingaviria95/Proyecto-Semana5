@@ -52,6 +52,8 @@
 
 .contenedor__footer div{
     margin: 20px 30px;
+    width: auto;
+    height: 120px;
 }
 
 .contenedor__footer div p{
