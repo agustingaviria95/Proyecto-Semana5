@@ -60,3 +60,59 @@
     size: 16px;
     margin-top: 1px;
 }
+.main-filters-section h1 {
+    margin: 20px 0px 15px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+.filter-section-1 {
+    display: inline-flex;
+    margin: 3px 0px;
+    border-radius: 16px;
+    padding: 0px 5px;
+    background-color: #E6EFFD;
+    border: 1px solid #E6EFFD;
+}
+.filter-section-1 span img {
+    display: flex;
+    margin: 5px;
+    padding-left: 15px;
+    align-items: center;
+}
+.filter-section-1 p {
+    display: flex;
+    margin: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #3366CC;
+}
+.filter-section {
+    display: inline-flex;
+    margin: 3px 0px;
+    border-radius: 16px;
+    padding: 0px 5px;
+    background: #FFFFFF;
+    border: 1px solid #E6EFFD;
+}
+.filter-section span img {
+    display: flex;
+    margin: 5px;
+    padding-left: 15px;
+    align-items: center;
+}
+.filter-section p {
+    display: flex;
+    margin: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #3366CC;
+}
+.division-graphic-section {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #F0F3F5;
+}
