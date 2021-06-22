@@ -36,7 +36,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .contenedor__footer div a{
@@ -60,10 +60,6 @@
 
 .parrafo-simp{
     font-weight: 400;
-}
-
-.contenedor__footer div img{
-    padding-left: 30px;
 }
 
 .social-media-icons {
