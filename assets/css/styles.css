@@ -30,6 +30,10 @@
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
 }
+.contenedor__titulos{
+    width: 300px;
+    height: 200px;
+}
 .footer-titulo {
     color: #2A2D82;
     font-style: normal;
@@ -43,6 +47,7 @@
     color: rgba(22, 170, 255, 1);
     font-weight: 400;
     font-size: 12px;
+    text-decoration: none;
 }
 
 .contenedor__footer div{
