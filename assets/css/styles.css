@@ -5,12 +5,24 @@
 .header-home {
     background-color: #3366CC;
     width: 100%;
-    padding: 1%;
+    height: 50px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
-.header-home span {
-    margin-right: 5%;
+.header-home span img {
+    height: 30px;
+}
+.header-home-img {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.header-home span a {
+    margin-right: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: white;
 }
 .contenedor__footer{
     display: flex;
