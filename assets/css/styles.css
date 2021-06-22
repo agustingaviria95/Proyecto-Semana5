@@ -5,12 +5,24 @@
 .header-home {
     background-color: #3366CC;
     width: 100%;
-    padding: 1%;
+    height: 40px;
+    padding-top: 12px;
     display: flex;
     justify-content: space-between;
 }
-.header-home span {
-    margin-right: 5%;
+.header-home span img {
+    height: 25px;
+}
+.header-home-img {
+    margin-left: 50px;
+}
+.header-home span a {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 3px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: white;
 }
 .contenedor__footer{
     display: flex;
@@ -52,4 +64,9 @@
 
 .contenedor__footer div img{
     padding-left: 30px;
+}
+
+.social-media-icons {
+    height: 40px;
+    margin-left: 20px;
 }
