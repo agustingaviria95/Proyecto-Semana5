@@ -1,0 +1,13 @@
+
+.contenedor__footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    color: #2A2D82;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+}
