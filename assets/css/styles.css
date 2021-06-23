@@ -5,12 +5,24 @@
 .header-home {
     background-color: #3366CC;
     width: 100%;
-    padding: 1%;
+    height: 40px;
+    padding-top: 12px;
     display: flex;
     justify-content: space-between;
 }
-.header-home span {
-    margin-right: 5%;
+.header-home span img {
+    height: 25px;
+}
+.header-home-img {
+    margin-left: 50px;
+}
+.header-home span a {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 3px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: white;
 }
 main .title-home-section span {
     font-family: 'Work Sans', sans-serif;
@@ -38,16 +50,65 @@ main .browser-home {
 main .search-section-home {
     margin: 0 auto;
     margin-bottom: 35px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
 }
+main .search-div-home {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+    width: 90%;
+}
+main .search-span-home{
+    display: flex;
+    justify-content: space-between;
+}
+main .search-span-home input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+main .search-span-home .search-input-span{
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+main .search-span-home .search-input-span img {
+    margin-right: 7px;
+}
+main .search-span-home .search-filter-span {
+    display: flex;
+    font-size: 14px;
+}
+main .search-span-home .search-filter-span img {
+    margin: 5px;
+}
+main .search-button-home button{
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #3366CC;
+    border-radius: 30px;
+    border: 0px;
+    margin-left: 5px;
+}
+
 .contenedor__footer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
 }
-h1{
+
+.footer-titulo {
     color: #2A2D82;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 14px;
     margin: 0;
@@ -166,4 +227,36 @@ h1{
     margin: 0 auto;
     width: 90%;
     border: 1px solid #F0F3F5;
+    margin-bottom: 12px;
+}
+
+.contenedor__footer div a{
+    color: rgba(22, 170, 255, 1);
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.contenedor__footer div{
+    margin: 20px 30px;
+    width: auto;
+    height: 120px;
+}
+
+.contenedor__footer div p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.parrafo-esp{
+    font-weight: 500;
+}
+
+.parrafo-simp{
+    font-weight: 400;
+}
+
+.social-media-icons {
+    height: 40px;
+    margin-left: 20px;
 }
