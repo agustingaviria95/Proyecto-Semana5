@@ -86,7 +86,7 @@ input::placeholder {
 main .search-span-home .search-input-span {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 60%;
 }
 .search-input-span .search-icon img {
     padding-top: 13px;
