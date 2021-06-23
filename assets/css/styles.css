@@ -38,6 +38,16 @@ main .title-home-div {
     display: flex;
     align-items: center;
     padding: 5%;
+    width: 70%;
+    justify-content: space-around;
+    align-content: center;
+}
+main .title-home-div span{
+    width: 90%;
+    font-size: 2vw;
+}
+main .title-home-div span img {
+    width: 100%;
 }
 main .title-home-div span p {
     margin: 8px;
@@ -50,7 +60,7 @@ main .browser-home {
 main .search-section-home {
     margin: 0 auto;
     margin-bottom: 10px;
-    width: 55%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +70,7 @@ main .search-div-home {
     padding: 12px;
     border: 1px solid #dcdcdc;
     border-radius: 20px;
-    width: 90%;
+    width: 70%;
 }
 main .search-span-home{
     display: flex;
@@ -70,11 +80,13 @@ main .search-span-home input {
     width: 100%;
     border: none;
     outline: none;
+    font-size: 3vw;
 }
 main .search-span-home .search-input-span{
     display: flex;
     align-items: center;
-    width: 85%;
+    width: 60%;
+    font-size: 1.2vw;
 }
 main .search-span-home .search-input-span img {
     margin-right: 7px;
@@ -90,12 +102,15 @@ main .search-button-home button{
     padding: 10px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 3.5vw;
     color: #ffffff;
     background-color: #3366CC;
     border-radius: 30px;
     border: 0px;
     margin-left: 5px;
+}
+#filter-home {
+    width: 70%;
 }
 main .drag-home-section {
     display: flex;
@@ -109,18 +124,18 @@ main .drag-text-div {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    width: 90%;
+    width: 100%;
 }
 main .drag-text-div a {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 3vw;
     color: #3366CC;
 }
 main .drag-text-div p {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 3vw;
     color: #4B4B4B;
 }
 main .drag-documents-div {
@@ -131,6 +146,7 @@ main .drag-documents-div {
     border: 1px solid #dcdcdc;
     padding: 4%;
     border-radius: 20px;
+    width: 100%;
 }
 main .drag-documents-div img {
     margin-bottom: 5%;
@@ -138,7 +154,7 @@ main .drag-documents-div img {
 main .drag-documents-div p,a {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 2.5vw;
 }
 .contenedor__footer{
     display: flex;
