@@ -1,7 +1,7 @@
 main .main-navbar-container {
     margin: 0 auto;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     margin-top: 8px;
     padding-bottom: 7px;
 }
@@ -9,10 +9,10 @@ main .search-save-span {
     display: none;
 }
 .search-save-span-fs {
-    margin-right: 30px;
+    margin-right: 40px;
     display: flex;
     justify-content: flex-end;
-    width: 20%;
+    width: 15%;
     align-items: stretch;
 }
 main .market-icon-fs {
@@ -35,5 +35,8 @@ main .main-navbar-logo {
 main .search-div-home {
     display: block;
     width: 528px;
+}
+main .search-span-home .search-input-span {
+    width: 100%;
 }
 

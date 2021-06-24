@@ -3,7 +3,6 @@ main .search-section-home {
     justify-content: start;
     width: 100%;
     font-family: 'Work Sans', sans-serif;
-    
 }
 .search-div-home {
     width: 528px;
@@ -37,4 +36,7 @@ main .search-vinculos-resultados {
 .main-graphic-date-container {
     margin-top: 3px;
     margin-bottom: 3px;
+}
+main .search-span-home .search-input-span {
+    width: 100%;
 }
