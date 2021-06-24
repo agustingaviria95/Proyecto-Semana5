@@ -126,9 +126,20 @@ top: 404px;
 justify-content: space-between;
 display: flex;
 }
+.select{
+    color: #BABABA;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+width: 136px;
+height: 24px;
+border: 1px solid #DCDCDC;
+box-sizing: border-box;
+border-radius: 5px;
+
+}
 .text-results{
     position: static;
-width: 112px;
 height: 16px;
 left: 24px;
 top: 0px;
@@ -144,19 +155,17 @@ align-items: center;
 color: #4B4B4B;
 }
 .order{
-    position: static;
-width: 224px;
-height: 24px;
-left: 96px;
-top: 0px;
-background: #FFFFFF;
-border: 1px solid #DCDCDC;
-box-sizing: border-box;
-border-radius: 5px;
+    position:static;
 flex: none;
 order: 1;
 flex-grow: 0;
 margin: 0px 8px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #4B4B4B
 }
 .container-info{
     display: flex;
