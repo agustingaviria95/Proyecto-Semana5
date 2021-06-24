@@ -1,0 +1,39 @@
+main .main-navbar-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    margin-top: 8px;
+    padding-bottom: 7px;
+}
+main .search-save-span {
+    display: none;
+}
+.search-save-span-fs {
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    align-items: stretch;
+}
+main .market-icon-fs {
+    display: inline-flex;
+    margin: 7px;
+}
+main .search-save-span-fs a {
+    margin-top: 24px;
+    display: inline-flex;
+    font-size: 14px;
+    color: #3366CC;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+main .main-navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 75px;
+}
+main .search-div-home {
+    display: block;
+    width: 528px;
+}
+

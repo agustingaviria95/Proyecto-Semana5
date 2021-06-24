@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/media-results-1.css" media="(min-width: 400px)">
+    <link rel="stylesheet" href="/assets/css/media-results-2.css" media="(min-width: 550px)">
+    <link rel="stylesheet" href="/assets/css/media-results-3.css" media="(min-width: 800px)">
+    <link rel="stylesheet" href="/assets/css/media-results-4.css" media="(min-width: 1000px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,9 +21,9 @@
     </header>
     <main>
         <section class="main-navbar-container">
-            <span>
-                <img src="/assets/img/logo-title-resultados.png" alt="">
-            </span>
+            <div class="main-navbar-logo">
+                <img src="/assets/img/logo-title-resultados.png" alt="Logo superintendencia">
+            </div>
             <section class="browser-home">
                 <section class="search-section-home">
                     <div class="search-div-home">
@@ -32,14 +36,29 @@
                             </span>
                         </span>
                     </div>
-                    <span class="search-filter-span">
-                        <span><a href="">Ver filtros</a></span>
-                        <span class="arrow-icon">
-                            <img src="./assets/img/arrow-down.svg" alt="Icono despleglable">
+                    <div class="search-vinculos-resultados">
+                        <span class="search-filter-span-results">
+                            <span><a href="">Ver filtros</a></span>
+                            <div class="arrow-icon-results">
+                                <img src="./assets/img/arrow-down.svg" alt="Icono despleglable">
+                            </div>
                         </span>
-                    </span>
+                        <span class="search-save-span">
+                            <div class="market-icon">
+                                <img src="./assets/img/market.svg" alt="Icono de guardados">
+                            </div>
+                            <span><a href="">Guardados</a></span>
+                        </span>
+                    </div>
                 </section>
             </section>
+            <span class="search-save-span-fs">
+                <div class="market-icon-fs">
+                    <img src="./assets/img/market.svg" alt="Icono de guardados">
+                </div>
+                <span><a href="">Guardados</a></span>
+            </span>
+        </section>
         <section class="main-graphic-section">
             <h1>Rango de tiempo (de providencia):</h1>
             <div class="main-graphic-container">
@@ -69,8 +88,8 @@
                     <p>Protección al consumidor</p><span><img src="/assets/img/close.svg" alt="Protección al consumidor"></span>
                 </div>
             </section>
+            <hr class="division-graphic-section">
         </section>
-        <hr class="division-graphic-section">
     </main>
     <script src="assets/js/script.js"></script>
 </body>
