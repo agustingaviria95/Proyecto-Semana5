@@ -117,6 +117,10 @@ main .search-button-home button {
     border: 0px;
     margin: 10px auto; /*quitar cuando este en mayor tamaño*/
 }
+main .search-button-home a {
+    text-decoration: none;
+    color: white;
+}
 #filter-home {
     margin-top: 10px;
     width: 100%;
