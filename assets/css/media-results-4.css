@@ -1,4 +1,4 @@
-main .search-section-home {
+header .search-section-home {
     display: inline-flex;
     justify-content: start;
     width: 100%;
@@ -7,7 +7,7 @@ main .search-section-home {
 .search-div-home {
     width: 528px;
 }
-main .search-vinculos-resultados {
+header .search-vinculos-resultados {
     display: inline-flex;
     justify-content: space-between;
     margin-left: 18px;

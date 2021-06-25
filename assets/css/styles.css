@@ -27,19 +27,19 @@
 .results-body-color {
     background-color: #FAFBFD;
 }
-main .main-navbar-container {
+header .main-navbar-container {
     background-color: #FFFFFF;;
     box-shadow: inset 0px -1px 0px #CCCCCC;
 }
-main .main-navbar-logo {
+header .main-navbar-logo {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
-main .main-navbar-logo img {
+header .main-navbar-logo img {
     height: 32px;
 }
-main .browser-home {
+header .browser-home {
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -47,23 +47,23 @@ main .browser-home {
     max-width: 700px;
     flex-direction: column;
 }
-main .search-section-home {
+header .search-section-home {
     display: block; /*cambiarle a inline flex*/
     margin: 0 auto;
     width: 100%;
     font-family: 'Work Sans', sans-serif;
 }
-main .search-div-home {
+header .search-div-home {
     border: 1px solid #dcdcdc;
     border-radius: 20px;
     max-width: 100%;
     height: 40px;
 }
-main .search-span-home{ 
+header .search-span-home{ 
     display: flex;
     justify-content: space-between;
 }
-main .search-span-home .search-input-span input {
+header .search-span-home .search-input-span input {
     margin-top: 7px;
     margin-left: 10px;
     font-family: 'Work Sans', sans-serif;
@@ -76,54 +76,54 @@ main .search-span-home .search-input-span input {
 input::placeholder {
     color: transparent;
 }
-main .search-span-home .search-input-span {
+header .search-span-home .search-input-span {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 100%;
 }
 .search-input-span .search-icon img {
     padding-top: 13px;
     padding-left: 14px;
 }
-main .search-span-home .search-filter-span {
+header .search-span-home .search-filter-span {
     margin-top: 10px;
 }
-main .search-span-home .search-filter-span a {
+header .search-span-home .search-filter-span a {
     font-size: 14px;
     color: #3366CC;
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
 }
-main .arrow-icon-results {
+header .arrow-icon-results {
     display: inline-flex;
     padding: 7px;
 }
-main .search-vinculos-resultados {
+header .search-vinculos-resultados {
     margin: 10px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-main .search-filter-span-results {
+header .search-filter-span-results {
     display: inline-flex;
     align-items: stretch;
 }
-main .search-filter-span-results a {
+header .search-filter-span-results a {
     display: inline-flex;
     font-size: 14px;
     color: #3366CC;
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
 }
-main .search-save-span {
+header .search-save-span {
     display: inline-flex;
     align-items: stretch;
 }
-main .market-icon {
+header .market-icon {
     display: inline-flex;
     margin: 7px;
 }
-main .search-save-span a {
+header .search-save-span a {
     margin-top: 7px;
     display: inline-flex;
     font-size: 14px;
@@ -149,26 +149,28 @@ main .search-save-span a {
     justify-content: start;
     flex-direction: column;
     justify-content: center;
-    max-width: 745px;
+    max-width: 100%;
+    height: auto;
     padding: 5px 5px 15px 1px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 16px;    
 }
 .main-graphic {
+    width: 100%;
     display: flex;
     padding: 15px 5px;  
 }
 .main-graphic-img {
     width: 95%;
-    max-width: 530px;
+    max-width: 100%;
     display: block;
-    margin: auto;
+    margin:0 auto;
 }
 .main-graphic-date-section {
     display: flex;
-    width: 96.5%;
-    margin: 0 auto;
+    width: 100%;
+    flex-direction: flex-end;
 }
 .main-graphic-date-container {
     display: inline-flex;
@@ -461,7 +463,17 @@ main .search-save-span a {
     box-sizing: border-box;
     border-radius: 16px;
 }
-.num-list{
+.num-list-1{
+    display: none;
+    margin: 15px auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+    width: 274px;
+    height: 32px;
+}
+.num-list-2{
     margin: 15px auto;
     display: flex;
     flex-direction: row;
@@ -501,4 +513,119 @@ main .search-save-span a {
     font-size: 14px;
     line-height: 21px;
     color: #3366CC;
+}
+
+/*desde aqui comienza el código de Santiago*/
+.main-info-section {
+    background-color: white;
+    border: 2px solid #E6EFFD;
+    width: 100%;
+}
+
+.card-main-container {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+.title-container h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #004884;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px 0 ;
+}
+
+.division-container-info-section {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 1px solid #DCDCDC;
+}
+
+.card-info-container {
+    padding-bottom: 20px;
+}
+.card-main-container h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #004884;
+    margin-bottom: 20px;
+}
+.card-main-container p {
+    margin:  5px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #004884;
+}
+.card-main-container p span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #4B4B4B;
+    margin-left: 5px;
+}
+.card-main-container a p {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3366CC;
+    border: 1px solid #3366CC;
+    max-width: 145px;
+    padding: 6px ;
+    border-radius: 50px;
+}
+.card-main-container a {
+    text-decoration: none;
+}
+.card-main-container2 {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Montserrat', sans-serif; 
+}
+.card-main-container2 h4 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4B4B4B;
+}
+.card-main-container2 h4 span {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.card-main-container2 p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 5px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.card-main-container2 p span {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 5px;
+    line-height: 23px;
+    background-color: #D1FFE3;
+}
+.card-main-container3 {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-main-container3 {
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+.card-main-container3 h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #4B4B4B;
+    padding: 20px 0;
+}
+.card-main-container3 p {
+    margin-top: 15px;
 }

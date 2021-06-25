@@ -1,20 +1,20 @@
-main .main-navbar-container {
+header .main-navbar-container {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-top: 8px;
 }
-main .browser-home {
+header .browser-home {
     padding: 5px;
     display: inline-flex;
 }
-main .main-navbar-logo {
+header .main-navbar-logo {
     display: inline-flex;
     justify-content: start;
     margin-right: 20px;
     margin-left: 20px;
 }
-main .browser-home {
+header .browser-home {
     margin: 5px ;
     display: inline-flex;
     width: 100%;
