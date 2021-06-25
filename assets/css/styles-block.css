@@ -4,10 +4,8 @@ body {
     max-width: 428px;
     margin-left: auto;
     margin-right: auto;
-    border-left: 1px solid #E6EFFD
-    ;
-    padding: 0 20px;
-    
+    border-left: 1px solid #E6EFFD;
+    padding: 0 20px;  
 }
 .card-main-container {
     max-width: 310px;
@@ -31,26 +29,23 @@ body {
     font-weight: 700;
     color: #004884;
     margin-bottom: 20px;
-    
-
 }
 .card-main-container p {
     margin:  5px 0;
     font-size: 13px;
     font-weight: 400;
     color: #004884;
-
-}.card-main-container p span {
+}
+.card-main-container p span {
     font-size: 13px;
     font-weight: 400;
     color: #4B4B4B;
     margin-left: 5px;
 
 }
-
 .card-main-container a p {
     margin-top: 10px;
-    text-decoration: ;
+    text-decoration: none;
     font-size: 12px;
     font-weight: 500;
     color: #3366CC;
@@ -58,7 +53,6 @@ body {
     max-width: 145px;
     padding: 6px ;
     border-radius: 50px;
-
 }
 .card-main-container2 {
     max-width: 310px;
