@@ -128,7 +128,7 @@ display: flex;
 }
 .select{
     color: #BABABA;
-font-family: Work Sans;
+font-family:  'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 width: 136px;
@@ -136,6 +136,7 @@ height: 24px;
 border: 1px solid #DCDCDC;
 box-sizing: border-box;
 border-radius: 5px;
+
 
 }
 .text-results{
@@ -145,7 +146,7 @@ left: 24px;
 top: 0px;
 }
 .text-results span{
-font-family: Work Sans;
+font-family: 'Work Sans',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -160,7 +161,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 margin: 0px 8px;
-font-family: Work Sans;
+font-family:'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -217,7 +218,7 @@ top: 0px;
 border-bottom:1px solid #DCDCDC;
 }
 .first-text h3{
-font-family: Montserrat;
+font-family: 'Montserrat',sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -267,7 +268,7 @@ justify-content: space-around;
 }
 .relevancia h4{
     color: #4B4B4B;
-    font-family: Work Sans;
+    font-family: 'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -300,7 +301,7 @@ height: 24px;
 left: 18px;
 top: 32px;
 
-font-family: Work Sans;
+font-family: 'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -318,8 +319,8 @@ margin: 8px 0px;
     width: 195px;
     height: 104px;
     left: 25px;
-    top: 110px;
-font-family: Work Sans;
+    top: 90px;
+font-family: 'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -334,7 +335,7 @@ height: 24px;
 left: 0px;
 top: 0px;
 color: #4B4B4B;
-font-family: Work Sans;
+font-family:'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -346,7 +347,7 @@ margin: 5px 0px;
 }
 .txt-p{
     color: #3366CC;
-    font-family: Work Sans;
+    font-family:'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -365,7 +366,7 @@ position: absolute;
 width: 195px;
 height: 104px;
 left: 222px;
-top: 110px;
+top: 90px;
 
 }
 .text-2{
@@ -386,7 +387,7 @@ top: 240px;
     height: 104px;
     left: 25px;
     top: 360px;
-font-family: Work Sans;
+font-family:'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -422,7 +423,7 @@ top: 480px;
     height: 104px;
     left: 25px;
     top: 610px;
-font-family: Work Sans;
+font-family:'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -460,7 +461,7 @@ flex-direction: column;
     height: 104px;
     left: 25px;
     top: 845px;
-font-family: Work Sans;
+font-family: 'Work Sans',sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -478,5 +479,51 @@ flex-direction: column;
     height: 104px;
     left: 222px;
     top: 845px;
+
+}
+.num-list{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+justify-content: space-between;
+position: static;
+width: 274px;
+height: 32px;
+left: 470px;
+top: 968px;
+}
+.num{
+    position: static;
+width: 20px;
+height: 24px;
+left: 6px;
+top: 4px;
+font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+color: #004884;
+text-decoration: none;
+}
+.previous{
+    font-family: 'Work Sans',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #3366CC;
+
+}
+.next{
+    font-family:  'Work Sans',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #3366CC;
+
 
 }
