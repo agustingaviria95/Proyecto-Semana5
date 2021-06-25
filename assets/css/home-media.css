@@ -1,0 +1,33 @@
+main .title-home-div {
+    padding-top: 72px;
+    display: inline-flex;
+    margin: 0 auto;
+}
+main .title-home-div span img {
+    margin-top: 26px;
+    margin-right: 16px;
+}
+main .title-home-section span p {/*cambiar con los querys la posición*/
+    margin-left: 16px;
+    text-align: start;
+}
+main .search-section-home {
+    display: inline-flex;
+    align-items: center;
+}
+main .search-button-home button {
+    margin-left: 8px;
+}
+main .drag-text-div {
+    display: inline-flex;
+    justify-content: space-between;
+}
+#filter-home {
+    margin-top: 3px;
+}
+input::placeholder {
+    color: #BABABA;
+}
+main .search-span-home .search-input-span {
+    width: 80%;
+}
