@@ -36,7 +36,7 @@
                             <span class="search-icon">
                                 <img src="/assets/img/search-icon.svg" alt="Icono de buscar">
                             </span>
-                            <input type="text" placeholder="Busca cualquier término jurídico">
+                            <input id="buscador" type="text" placeholder="Busca cualquier término jurídico">
                         </span>
                         <span class="search-filter-span">
                             <span><a href="">Ver filtros</a></span>
@@ -46,7 +46,7 @@
                         </span>
                     </span>
                 </div>
-                <span class="search-button-home"><button>Buscar</button></span>
+                <span class="search-button-home"><button onclick="resuladosBuscador()"><a href="/resultados.html">Buscar</a></button></span>
             </section>
             <section id="filter-home">
                 <section class="filter-section-container" >
@@ -107,5 +107,7 @@
         </div>
         </div>
     </footer>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/resultados.js"></script>
 </body>
 </html>
